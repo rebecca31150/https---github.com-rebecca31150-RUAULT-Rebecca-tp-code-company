@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+   @import url(https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Open+Sans&family=Radio+Canada:wght@500&family=Raleway:wght@900&family=Roboto&family=Tapestry&display=swap);
+} 
+/*navbar*/
+.Nav{
+    background-color: #093348;
+    width: 1921px;
+    height: 610px;
+}
+.pictopinceau{
+    background-color: #11394e;
+    border: 10px;
+    border-color: white;
+}
