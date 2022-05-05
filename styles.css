@@ -16,11 +16,11 @@
 }
 .listnav{
     display:flex;
+    flex-direction:row;
     list-style-type: none;
     justify-content:end;
-    margin-right: 100px;
-    
-    
+    margin-right: 300px;
+   
 }
 .listnav a{
     color: white;
@@ -29,14 +29,22 @@
     font-size: 17pt;
     letter-spacing: 2px;
     padding: 20px;
-    align-content: center;
+}
+.homePage{
+    border: #2c101a;
+    border-sh
 }
 .listnav a:hover{
     background-color: #1f4559;
     color: #8ebdd6;
 }
 .pictopinceau{
+    border-color: white solid 10px;
     background-color: #11394e;
     border-radius: 100%;
-    border-color: white solid 2px;  
+     
+}
+/*header*/
+.photoordinateur{
+    width: 100%;
 }
