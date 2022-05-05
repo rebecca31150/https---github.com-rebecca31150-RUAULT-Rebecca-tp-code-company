@@ -31,8 +31,8 @@
     padding: 20px;
 }
 .homePage{
-    border: #2c101a;
-    border-sh
+    border-right: #2c101a solid 2px;
+    box-shadow: #1a4155 2px 1px;
 }
 .listnav a:hover{
     background-color: #1f4559;
@@ -45,6 +45,57 @@
      
 }
 /*header*/
+.containerhomepage{
+    display:flex;
+    
+    
+}
 .photoordinateur{
     width: 100%;
+    height: 500px;
+    
+}
+.textordi{
+    color:black;
+    text-align: center;
+    
+    
+}
+.soustitreordi{
+    border-bottom: #5a8da7 solid 3px; 
+    padding: 10px;
+    
+}
+.p-ordi{
+    padding: 10px;
+    width: 500px;
+    
+}
+ 
+.boutonordi{
+    background-color: rgba(255, 255, 255, 0.432);
+    border: black solid 3px;
+    border-radius: 30px;
+    height: 30px;
+    width: 250px;
+    
+}
+.titreordi, .soustitreordi, .p-ordi, .boutonordi{
+    text-align: center;
+    
+} 
+
+
+
+
+
+
+footer{
+    background-color: #223139;
+    
+}
+.pictobas{
+    
+    background-color: #223139;
+    border-radius: 100%;  
 }
