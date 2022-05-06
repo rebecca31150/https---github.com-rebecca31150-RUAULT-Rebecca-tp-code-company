@@ -1,101 +1,222 @@
-*,
-*::before,
-*::after{
+*{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
     
+    
+}
 
 /*navbar*/
-.Nav{
-    display:flexbox;
+.containernav{
+    width: 100%;
+    display: flex;
+    align-items: center;
     background-color: #093348;
-    width: 100%;   
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
 }
 .listnav{
-    display:flex;
-    flex-direction:row;
+    display: flex;
     list-style-type: none;
-    justify-content:end;
-    margin-right: 300px;
-   
 }
 .listnav a{
     color: white;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 17pt;
-    letter-spacing: 2px;
-    padding: 20px;
+    letter-spacing: 5px;
+   
 }
 .homePage{
     border-right: #2c101a solid 2px;
-    box-shadow: #1a4155 2px 1px;
+    box-shadow: #1a4155 2px 0px;
+    margin-right: 20px;
+}
+.marge{
+    margin-right: 30px;
 }
 .listnav a:hover{
     background-color: #1f4559;
     color: #8ebdd6;
 }
 .pictopinceau{
-    border-color: white solid 10px;
     background-color: #11394e;
     border-radius: 100%;
-     
+    border: rgba(255, 255, 255, 0.283) solid 2px;
+margin-left: 250px;
+margin-right: 400px;
 }
-/*header*/
+
+/*Homepage*/
 .containerhomepage{
     display:flex;
-    
-    
-}
-.photoordinateur{
+    background-image: url(/Ressource/ordinateur.png);
     width: 100%;
-    height: 500px;
-    
 }
-.textordi{
-    color:black;
+.texthomepage{
+    width: 900px;
     text-align: center;
-    
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.containerhomepage h1{
+    font-size: 60pt ;
+    color: white;
+    margin-top: 60px;
     
 }
-.soustitreordi{
-    border-bottom: #5a8da7 solid 3px; 
-    padding: 10px;
-    
+.containerhomepage h2{
+    border-bottom: #5a8da7 solid 2px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    font-size: 24pt;
+    color: white;
 }
-.p-ordi{
-    padding: 10px;
-    width: 500px;
-    
+.containerhomepage p{
+    font-size: 15pt;
+    color: #b4d1e1;
+    margin-bottom: 20px;
 }
- 
 .boutonordi{
+    font-size: 15pt;
+    color: white;
     background-color: rgba(255, 255, 255, 0.432);
-    border: black solid 3px;
+    border: white solid 2px;
     border-radius: 30px;
-    height: 30px;
-    width: 250px;
+    height: 50px;
+    width: 450px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+/*Ourteam*/
+.containerourteam{
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+.textourteam{
+    width: 1300px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.containerourteam h1{
+    font-size: 36pt;
+    color: #0d415c;
+    margin-top: 50px;
+}
+.card img{
+    border-radius: 100%;
+}
+.containerourteam .Pourteam {
+    color: #0d415c;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+
+/*Porfolio*/
+.containerportfolio{
+    width: 100%;
+    background-color: #3ead87;
+    display: flex;
     
 }
-.titreordi, .soustitreordi, .p-ordi, .boutonordi{
+.textprotfolio{
+    width: 1000px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.containerportfolio h1{
     text-align: center;
-    
-} 
+    font-size: 36pt;
+    color: white;
+}
+.containerportfolio h2{
+    font-size: 18pt;
+    color: white;
+}
+.containerportfolio img{
+    border-radius: 100%;
+}
+.containerportfolio .boutoncontact{
+    font-size: 15pt;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.432);
+    border: white solid 2px;
+    border-radius: 30px;
+    height: 50px;
+    width: 450px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+/*contact*/
+.containercontact{
+    width: 100%;
+    background-color: #223139;
+    display: flex;
+}
+.textcontact{
+    width: 700px;
+    position:relative;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+}
+.containercontact h1, h2{
+    text-align: center;
+    color: white;
+}
+.nom{
+ height: 30px;
+ border-radius: 30px;
+ text-align: center;
+ margin-bottom: 10px; 
+ margin-top: 10px; 
+}
+.prenom{height: 30px;
+border-radius: 30px;
+text-align: center;
+margin-bottom: 10px; 
+ 
+}
+.message{
+    width: 300px;
+    height: 80px;
+    border-radius: 10px;
+    text-align:center;
+    margin-bottom: 10px;
+}
 
 
 
-
-
-
-footer{
+/*footer*/
+.containerfooter{
+    width: 100%;
     background-color: #223139;
     
 }
-.pictobas{
-    
-    background-color: #223139;
-    border-radius: 100%;  
+.titrefooter{
+    color: white;
+    margin-top: 15px;
+    margin-left: 150px;
+}
+.pictoreseaux{
+   margin-left: 10px;
+}
+.pfooter{
+    color: white;
+    margin-top: 20px;
+    margin-left: 250px;
+}
+footer {
+    display: flex;
+    border-top: #747d82 solid 2px ;
+     
 }

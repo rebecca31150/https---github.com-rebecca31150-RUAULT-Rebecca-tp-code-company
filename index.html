@@ -12,90 +12,103 @@
     
 <header> 
     <!--Navbar--> 
-    <nav class="Nav"> 
-    <article class="pictohaut">
-        <img src="/Ressource/picto pinceau.png" class="pictopinceau" alt="pictogramme pinceau">
-    </article>
-    <article>
-    <ul class="listnav"></ul>
-       <li><a href="index.html" class="homePage">homepage</a></li>
-       <li><a href="index.html">our team</a></li>
-       <li><a href="index.html">portfolio</a></li> 
-       <li><a href="index.html">contact</a></li> 
-    </ul>
-    </article>
+    <nav class="containernav"> 
+            <img src="/Ressource/picto pinceau.png" class="pictopinceau" alt="pictogramme pinceau">
+        <ul class="listnav">
+            <li><a href="index.html" class="homePage">homepage</a></li>
+            <li><a href="#ourteam" class="marge" >our team</a></li>
+            <li><a href="#portfolio" class="marge">portfolio</a></li> 
+            <li><a href="#contact" class="marge">contact</a></li> 
+        </ul>
     </nav>
 </header>
-    <div class="containerhomepage">
-        <div class="textordi">
-            <img src="/Ressource/ordinateur.png" class="photoordinateur" alt="photo ordinateur">
-        
-            <h1 class="titreordi">Do you need a real coder?</h1>
-            <h2 class="soustitreordi">we are the best code company on earth</h2>
-            <p class="p-ordi">We work direct with our hands. Also we do a really best graphic designs and our hands are so curved. But don’t worry. What we promise, that you get. Not just bla bla, like our politics ;)</p>
-            <button class="boutonordi">See our portfolio right now ▼</button>
+   <!--Home page-->
+<div class="containerhomepage" id="homepage">
+       <div class="texthomepage">
+            <h1>Do you need a real coder?</h1>
+            <h2>we are the best code company on earth</h2>
+            <p>We work direct with our hands. Also we do a really best graphic designs and our hands are so curved. But don’t worry. What we promise, that you get. Not just bla bla, like our politics ;)</p>
+            <a href="#portfolio"><button class="boutonordi">See our portfolio right now ▼</button></a>
         </div>
     </div>
-    <div class="containerourteam">
+    
+    
+    <div class="containerourteam" id="ourteam" >
+       <div class="textourteam">
         <h1>This three cute baby faces do for you everything boo boo</h1>
+      
     <article class="card">
-        <img src="/Ressource/#" alt="photo de Sonjoe">
+        <img src="/Ressource/Sonjoe.png" alt="photo de Sonjoe">
         <h2>Sonjoe</h2>
         <p>UI/UX, Designs, HTML & CSS</p>
     </article>
     <article class="card">
-        <img src="/Ressource/#" alt="photo de Kohut">
+        <img src="/Ressource/Kohut.png" alt="photo de Kohut">
         <h2>Kohut</h2>
         <p>UI/UX, Designs, HTML5 & CSS3, CMS</p>
     </article>
     <article class="card">
-        <img src="/Ressource/#" alt="photo de Fuxxo">
+        <img src="/Ressource/Fuxxo.png" alt="photo de Fuxxo">
         <h2>Fuxxo</h2>
         <p>UI/UX, Designs</p>
     </article>
-        <p>Sometimes we look more better. Especially when we changed our faces in Photoshop. If you want an autogram. No problem. Just give us a 100 bucks and you can have ;)</p>
+
+        <p class="Pourteam">Sometimes we look more better. Especially when we changed our faces in Photoshop. If you want an autogram. No problem. Just give us a 100 bucks and you can have ;)</p>
+    </div>
     </div> 
-    <div class="containerportfolio">
-        <h1></h1>
-        <h2></h2>
-    <article class="photoronde">
-        <img src="/Ressource/#" alt="photo du portfolio image">
-        <img src="/Ressource/#" alt="photo du portfolio texte">
-        <img src="/Ressource/#" alt="photo du portfolio maquette">
-        <img src="/Ressource/#" alt="photo du portfolio recherche">
+    
+    <div class="containerportfolio" id="portfolio">
+        <div class="textprotfolio">
+        <h1>Heeey! Just look on our portfolio. That we are huge</h1>
+        <h2>you know, curved hands are curved hands ;)</h2>
+    <article>
+        <img src="/Ressource/porfolio image.png" alt="photo du portfolio image">
+        <img src="/Ressource/porfolio text.png" alt="photo du portfolio texte">
+        <img src="/Ressource/porfolio maquette.png" alt="photo du portfolio maquette">
+        <img src="/Ressource/porfolio recherche.png" alt="photo du portfolio recherche">
     </article>
-    <button class="boutonordi">Do you want? Contact us! ▼</button>
+    <a href="#contact"><button class="boutoncontact">Do you want? Contact us! ▼</button></a>
+    </div>
     </div>  
-    <div class="containercontact">
-        <h1></h1>
-        <h2></h2>
+    
+    
+    <div class="containercontact" id="contact">
+        <div class="textcontact">
+        <h1>Contact us today and you get a professional code</h1>
+        <h2>Our hand curvedguys waiting for you</h2>
         <section>
-            <form action="" method="post">
+            <form action="formulaire" method="post">
                 <div class="champ">
                     <label for="nom"></label>
-                    <input type="text" name="nom" id="nom" placeholder="Placeholder Name">
+                    <input type="text" name="nom" id="nom" placeholder="Placeholder Name" class="nom">
                 </div>
                 <div class="champ">
                     <label for="email"></label>
-                    <input type="email" name="email" id="email" placeholder="Placeholder Email">
+                    <input type="email" name="email" id="email" placeholder="Placeholder Email" class="prenom">
                 </div>
                 <div class="champ">
                     <label for="message"></label>
-                    <textarea name="message" id="message" placeholder="Placeholder Message" ></textarea>
+                    <textarea name="message" id="message" placeholder="Placeholder Message" class="message" ></textarea>
                 </div>
                 <input type="submit" value="Send this message">
             </form>
         </section>
     </div>
-    <footer class="footer">
-        <h2>Follow us on:</h2>
-        <article class="pictobas">
-            <img src="/Ressource/picto facebook.png" alt="picto facebook">
-            <img src="/Ressource/#" alt="picto tweeter">
-            <img src="/Ressource/#" alt="picto linkedln">
-            <img src="/Ressource/#" alt="picto pinterest">
-            <img src="/Ressource/#" alt="picto you-tube">
-        </article>
+    </div>
+    
+    
+    <footer class="containerfooter">
+        
+            <h2 class="titrefooter">Follow us on:</h2>
+            
+            <a href="#"><img src="/Ressource/picto facebook.png" class="pictoreseaux" alt="picto facebook"></a>
+            <a href="#"><img src="/Ressource/picto tweeter.png" class="pictoreseaux" alt="picto tweeter"></a>
+            <a href="#"><img src="/Ressource/picto linkedln.png" class="pictoreseaux" alt="picto linkedln"></a>
+            <a href="#"><img src="/Ressource/picto pinterest.png" class="pictoreseaux" alt="picto pinterest"></a>
+            <a href="#"><img src="/Ressource/picto you-tube.png" class="pictoreseaux" alt="picto you-tube"></a>
+        
+            <p class="pfooter">Copyright 2014 © Designed with curved hands by Tempees.com</p>
+       
     </footer>
 </body>
 </html>
