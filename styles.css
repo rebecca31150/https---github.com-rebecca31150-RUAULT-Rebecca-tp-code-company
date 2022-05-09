@@ -239,3 +239,51 @@ footer {
     border-top: #747d82 solid 2px ;
      
 }
+
+@media screen and (max-width : 574px){
+.containernav, .containerhomepage, .presentation, .containerportfolio, .containercontact, .containerfooter{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+}
+.listnav{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.pictopinceau{
+    margin-block-end: 20px;
+    margin-right: 300px;
+}
+.containerhomepage{
+    display: flex;
+    flex-direction: column;
+}
+.texthomepage{
+    width: 100%;
+}
+.presentation {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.textourteam h1{
+   flex-direction: column;
+}
+.containerportfolio, .textprotfolio {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.containercontact, .textcontact{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.pfooter, titrefooter{
+    margin: 0px ;
+}
+
+}
