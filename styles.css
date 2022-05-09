@@ -90,33 +90,44 @@ margin-right: 400px;
     margin-bottom: 80px;
 }
 /*Ourteam*/
-.containerourteam{
-    width: 100%;
-    background-color: white;
-    display: flex;
+.presentation{
+    display:flex;
+    gap: 100px;
+    text-align: center;
+    color: #618598;
 }
-.textourteam{
-    width: 1300px;
+
+.textourteam h1{
+    font-size: 36pt;
+    color: #0d415c;
+    width: 1200px;
     position: relative;
     margin-left: auto;
     margin-right: auto;
-}
-
-.containerourteam h1{
-    font-size: 36pt;
-    color: #0d415c;
-    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 10px;
 }
 .card img{
     border-radius: 100%;
 }
-.containerourteam .Pourteam {
+.card h2{
     color: #0d415c;
+}
+
+.Pourteam   p{
+    color: #0d415c;
+    text-align: center;
     width: 500px;
+    display: flex;
+    position: relative;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-top: #c9d4da solid 2px;
 }
+
 
 
 /*Porfolio*/
@@ -133,9 +144,15 @@ margin-right: 400px;
     margin-right: auto;
 }
 .containerportfolio h1{
-    text-align: center;
     font-size: 36pt;
     color: white;
+    width: 1200px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 10px;
 }
 .containerportfolio h2{
     font-size: 18pt;
@@ -154,6 +171,7 @@ margin-right: 400px;
     width: 450px;
     margin-top: 30px;
     margin-bottom: 80px;
+   
 }
 
 /*contact*/
@@ -178,7 +196,8 @@ margin-right: 400px;
  border-radius: 30px;
  text-align: center;
  margin-bottom: 10px; 
- margin-top: 10px; 
+ margin-top: 10px;
+
 }
 .prenom{height: 30px;
 border-radius: 30px;
