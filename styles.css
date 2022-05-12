@@ -5,19 +5,30 @@
     @import url(https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Open+Sans&family=Radio+Canada:wght@500&family=Raleway:wght@900&family=Roboto&family=Tapestry&display=swap);
 }
 
+
+.boutonaccueilprincipal{
+    color: white;
+    font-size: 5pt;
+    text-decoration: none;
+}
+
 /*Header navbar*/
 header{
     background-color: #093348;
     height: 80px;
+    display: flex;
+    align-items: center;
+    
 }
 nav{
     display: flex;
-    justify-content: space-around;
    align-items:center;
+   
 }
 header ul{
     display: flex;
     list-style-type: none;
+    justify-content: space-between;
 }
 header a{
     display:block;
@@ -229,12 +240,85 @@ footer .footer{
     border-top: #c9d4da solid 2px;
     margin: 0 auto;
 }
-@media screen and(max-width:1029px) 
-{ 
-    *{
-        flex-direction: column;
-        margin: 0 auto;
-        padding: 0;
-    }
+@media screen and (max-width : 1100px) 
+{ header{
+    flex-direction: column;
+    height: 300px;
     
+}
+nav{
+    flex-direction: column;
+    
+}
+nav ul{
+    flex-direction: column;
+    
+}
+nav a{
+    font-size: 12pt;
+    
+}
+.ContainerHomePage h1{
+  font-size:18pt;
+}
+.ContainerHomePage h2{
+    font-size: 14pt;
+}
+.ContainerHomePage p{
+    width: 300px;
+}
+.ContainerOurTeam h1{
+    font-size: 18pt;
+    text-align: center;
+}
+.ContainerOurTeam div{
+    flex-direction: column;
+    width: 500px;
+}
+.ContainerOurTeam{
+    height:1200px;
+    
+}
+.ContainerOurTeam .Pourteam{
+    font-size: 12pt;
+    width: 500px;
+}
+
+.ContainerPortfolio{
+    flex-direction: column;
+    height: 800px;
+}
+.ContainerPortfolio h1{
+    font-size: 18pt;
+    text-align: center;
+}
+.ContainerPortfolio article{
+    flex-direction: column;
+}
+.ContainerPortfolio h2{
+    font-size: 14pt;
+}
+
+.ContainerContact h1{
+    font-size: 18pt;
+    text-align: center;
+}
+.ContainerContact h2{
+    font-size: 14pt;
+}
+.ContainerContact form{
+    width: 300px;
+}
+.ContainerContact a{
+   margin: 0 auto;
+  
+}
+.ContainerContact .boutoncontact{
+    width: 200px;
+}
+footer .footer{
+   width: 500px;
+   flex-direction: column;
+   margin: 0 auto;
+}
 }
